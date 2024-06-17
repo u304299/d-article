@@ -6,6 +6,8 @@ public class Reactor {
 
   public static void main(String[] args) {
 
+    // Test
+
     Mono.<String>create(monoSink -> System.out.println("test"))
         .subscribe(System.out::println);
 
